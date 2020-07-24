@@ -28,7 +28,7 @@
                     <h3 class="item-title pb-3 text-uppercase text-info">List of tasks</h3>
                     {% for article in articles %}
                         <h3>{{ article.pk }} | {{ article.description }}</h3>
-                        <p>Статус: ({{ article.status }} | {{ article.get_status_display }})</p>
+                        <p>Статус: {{ article.get_status_display }}</p>
                         <p>{{ article.created_at }}</p>
                     {% endfor %}
                 </div>

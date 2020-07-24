@@ -34,7 +34,9 @@
                 {% for choice in status_choices %}
                     <option value="{{ choice.0 }}">{{ choice.1 }}</option>
                 {% endfor %}
-            </select>
+            </select><br/>
+            <label>Date:</label>
+            <input type="date" value="YYYY-MM-DD" name="created_at"/>
             <br/>
             <div class="form-group row">
                 <div class="col-sm-10">
