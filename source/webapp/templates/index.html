@@ -27,7 +27,7 @@
                 <div class="col col-12 col-md-6">
                     <h3 class="item-title pb-3 text-uppercase text-info">List of tasks</h3>
                     {% for article in articles %}
-                        <h3>{{ article.pk }}, {{ article.description }}</h3>
+                        <h3>{{ article.pk }} | {{ article.description }}</h3>
                         <p>Статус: ({{ article.status }} | {{ article.get_status_display }})</p>
                         <p>{{ article.created_at }}</p>
                     {% endfor %}
