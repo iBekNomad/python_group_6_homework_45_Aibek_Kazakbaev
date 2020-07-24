@@ -1,0 +1,60 @@
+[
+{
+  "model": "webapp.article",
+  "pk": 4,
+  "fields": {
+    "description": "read 10 books",
+    "status": "new",
+    "created_at": "2020-07-24",
+    "updated_at": "2020-07-24"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 5,
+  "fields": {
+    "description": "Run 10 km",
+    "status": "new",
+    "created_at": "2020-07-28",
+    "updated_at": "2020-07-24"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 6,
+  "fields": {
+    "description": "Run 20 km",
+    "status": "new",
+    "created_at": "2020-07-24",
+    "updated_at": "2020-07-24"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 7,
+  "fields": {
+    "description": "\u041f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c \u0443\u0436\u0438\u043d",
+    "status": "in_progress",
+    "created_at": "2020-07-24",
+    "updated_at": "2020-07-24"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$Qo6wCVQHYK1R$yahWoM+yCl4AZq+eXSSqHA/vpZOHkH8mw48Tq0cchrA=",
+    "last_login": "2020-07-24T10:19:10Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Admin",
+    "last_name": "Adminych",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-07-24T10:18:04Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
