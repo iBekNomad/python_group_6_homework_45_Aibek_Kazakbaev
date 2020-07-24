@@ -17,8 +17,8 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('description', models.CharField(max_length=200, verbose_name='Описание')),
                 ('status', models.CharField(choices=[('new', 'Новая'), ('in_progress', 'В процессе'), ('done', 'Сделано')], default='new', max_length=15, verbose_name='Новая')),
-                ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='Время создания')),
-                ('updated_at', models.DateTimeField(auto_now=True, verbose_name='Время изменения')),
+                ('created_at', models.DateField(auto_now_add=True, verbose_name='Дата создания')),
+                ('updated_at', models.DateField(auto_now=True, verbose_name='Дата изменения')),
             ],
             options={
                 'verbose_name': 'Task',
